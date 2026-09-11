@@ -156,54 +156,6 @@ Technologies:
 
 ---
 
-## 🏗️ Integration Architecture
-
-My experience covers the complete integration lifecycle:
-
-```text
-                    ┌─────────────────────┐
-                    │   External Systems   │
-                    │ CBA | Partners | SaaS│
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   Azure API         │
-                    │   Management        │
-                    │ OAuth2 | JWT | mTLS │
-                    └──────────┬──────────┘
-                               │
-                ┌──────────────┼──────────────┐
-                │              │              │
-                ▼              ▼              ▼
-          Azure Functions   Logic Apps      APIs
-                │              │
-                └───────┬──────┘
-                        │
-                        ▼
-              ┌─────────────────────┐
-              │ Event-driven Layer  │
-              │ Event Hub / Grid    │
-              │ Service Bus         │
-              └──────────┬──────────┘
-                         │
-                         ▼
-              ┌─────────────────────┐
-              │ Data Integration     │
-              │ ADF / Synapse       │
-              │ Data Lake / ADX     │
-              └──────────┬──────────┘
-                         │
-                         ▼
-              ┌─────────────────────┐
-              │ Analytics & Data     │
-              │ Azure SQL / ADX     │
-              │ Reporting / Apps    │
-              └─────────────────────┘
-```
-
----
-
 ## 🔐 API Security
 
 I have hands-on experience designing layered API security using:
