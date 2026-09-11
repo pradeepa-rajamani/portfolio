@@ -1,122 +1,335 @@
-🌟 Pradeepa Rajamani — Azure Data Integration Lead
-Sydney‑based Azure Data Integration Lead with 19+ years of experience delivering enterprise‑grade data engineering, API integration, and cloud‑native solutions across financial services, government, utilities, and telecom.
-Specialised in Azure Data Factory, ADX, Synapse, Event Hub, Event Grid, Functions, Logic Apps, and API Management, with deep capability in data profiling, validation, modelling, telemetry ingestion, and metadata‑driven pipelines.
+# Hi, I'm Pradeepa Rajamani 👋
 
-I design secure, scalable, high‑performance integrations using OAuth2, JWT validation, mTLS, RBAC, rate limiting, and reusable APIM policy frameworks. Proven track record modernising data platforms using Medallion architecture, optimising ingestion pipelines, automating CI/CD, and leading cross‑functional teams to deliver reliable, governed, production‑ready cloud solutions.
+### Azure Data Integration Lead | Integration Developer | API & Cloud Integration Specialist
 
-🚀 Core Competencies
-Azure Data Engineering
-ADF, ADX, Synapse, Data Lake
+I am an **Azure Data Integration and API Integration professional with 19+ years of experience** delivering enterprise-grade integration, data engineering, and cloud-native solutions across government, financial services, utilities, telecommunications, and enterprise environments.
 
-Metadata‑driven pipelines
+My current focus is on designing **secure, scalable and production-ready Azure integration solutions**, with a strong emphasis on API management, data integration, event-driven architecture, data quality, observability, and DevOps automation.
 
-Medallion architecture
+---
 
-Telemetry & SCADA ingestion
+## 🚀 About Me
 
-KQL, T‑SQL, data validation
+* ☁️ Azure Data Integration & Cloud Architecture
+* 🔗 Enterprise API & System Integration
+* 📊 Data Engineering, Data Profiling & Data Validation
+* ⚡ Event-driven & hybrid integration architectures
+* 🔐 API Security, OAuth2, JWT, mTLS & RBAC
+* 🔄 CI/CD automation using Azure DevOps & YAML
+* 🧩 Metadata-driven integration and data pipelines
+* 📈 Application Insights, Azure Monitor & Log Analytics
+* 🏗️ Modernisation of legacy SOA/OSB integrations to Azure
+* 👥 Technical leadership and cross-functional delivery
 
-API Integration & Security
-APIM, Azure Functions, Logic Apps
+---
 
-REST API design, OpenAPI/Swagger
+## 🛠️ Technology Stack
 
-OAuth2, JWT validation, mTLS
+### Microsoft Azure
 
-RBAC, rate limiting, policy governance
+`Azure Data Factory` · `Azure Data Explorer` · `Azure Synapse` · `Azure Functions` · `Azure Logic Apps` · `Azure API Management` · `Event Hub` · `Event Grid` · `Service Bus` · `Azure SQL` · `Azure Storage` · `Data Lake` · `Cosmos DB` · `Key Vault` · `Application Insights` · `Azure Monitor` · `Log Analytics`
 
-Integration Architecture
-Event‑driven patterns
+### Data Engineering
 
-Hybrid sync/async integrations
+`ETL / ELT` · `KQL` · `T-SQL` · `Data Profiling` · `Data Validation` · `Data Modelling` · `Metadata-driven Pipelines` · `Medallion Architecture` · `Telemetry Ingestion` · `SCADA Data`
 
-Scalable ingestion pipelines
+### API & Integration
 
-Cloud‑native reliability & optimisation
+`REST APIs` · `OpenAPI / Swagger` · `OAuth2` · `JWT` · `mTLS` · `RBAC` · `API Governance` · `APIM Policies` · `Rate Limiting` · `Event-driven Architecture` · `Sync / Async Integration`
 
-DevOps & Automation
-Azure DevOps CI/CD
+### Development
 
-YAML pipelines
+`C#` · `.NET` · `Java` · `Python` · `SQL`
 
-IaC (PowerShell)
+### DevOps & Automation
 
-Application Insights, Monitor, Log Analytics
+`Azure DevOps` · `CI/CD` · `YAML Pipelines` · `PowerShell` · `Git` · `Key Vault` · `Infrastructure as Code`
 
-Leadership & Delivery
-Solution design & architecture
+### Legacy / Enterprise Integration
 
-Stakeholder management
+`Oracle SOA Suite` · `Oracle Service Bus (OSB)` · `Oracle Data Integrator (ODI)` · `Java` · `SAP` · `Salesforce`
 
-Cross‑functional collaboration
+---
 
-Production support & release management
+## 💼 Professional Experience
 
-🛠️ Technical Skills
-Cloud Integration: ADF, ADX, Synapse, Functions, Logic Apps, APIM, Service Bus, Event Hub, Event Grid
-Programming: C#, .NET Core, Java, Python
-Databases: Azure SQL, Oracle, MySQL, Cosmos DB
-DevOps: Azure DevOps, CI/CD, YAML, IaC
-Tools: Git, Visio, Draw.io, Confluence
-Architecture: REST APIs, event‑driven patterns, metadata‑driven pipelines
+### 🏛️ Housing Australia — Integration Developer
 
-🎓 Certifications
-DP‑203 — Data Engineering on Microsoft Azure
+**Sydney, Australia | Mar 2026 – Present**
 
-AZ‑204 — Developing Solutions for Microsoft Azure
+Working on enterprise Azure data and API integrations across systems including:
 
-Oracle SOA Foundation Practitioner
+* Treasury and Loan Management System (TALMS)
+* CBA
+* Yieldbroker
+* FinOps
+* FIS-Quantum
 
-Sun Certified Java Programmer
+Key technologies include:
 
-Oracle Certified Associate – SQL
+`Azure Functions` · `APIM` · `ADF` · `Logic Apps` · `Azure SQL` · `Event Hub` · `Event Grid` · `Key Vault` · `.NET`
 
-🏆 Awards & Achievements
-High Five Recognition – Housing Australia (2026)
+Key areas of work:
 
-Dam Good Award – WaterNSW (2025)
+* Azure-based data and API integration
+* OAuth2 and Entra ID JWT validation
+* mTLS and IP allowlisting
+* RBAC and API subscription governance
+* Event-driven integration
+* API observability and monitoring
+* Data validation and regulatory enhancements
 
-Team Anglers of the Year – Angle Auto Finance (2023)
+🏆 **High Five Recognition – Excellence**
 
-CKlub Trophy & Shining Star Award – Cognizant (2016)
+---
 
-Client Spot Award – General Motors (2012)
+### 💧 WaterNSW — Data Integration Lead
 
-Best Performer Award – Keane International (2007)
+**Sydney, Australia | Jan 2024 – Feb 2026**
 
-💼 Professional Experience
-Housing Australia — Integration Developer (2026–Present)
-Designed and delivered Azure‑based data and API integrations across TALMS, CBA, Yieldbroker, FinOps, and FIS‑Quantum.
-Implemented layered API security (OAuth2, JWT, mTLS, RBAC), scalable ingestion pipelines, and improved observability using App Insights and Log Analytics.
+Led enterprise Azure data engineering and integration initiatives involving real-time and batch telemetry.
 
-WaterNSW — Data Integration Lead (2024–2026)
-Led enterprise Azure data engineering for real‑time and batch telemetry ingestion.
-Performed large‑scale data profiling, designed Medallion‑based data models, built SCADA ingestion pipelines, and introduced Azure Data Sharing.
+Key areas included:
 
-Angle Auto Finance — Design & Development Lead (2021–2023)
-Architected Azure‑based integrations for EDI, Novated Leasing, and Dealer Portal.
-Delivered hybrid integration patterns, REST APIs with APIM governance, and CI/CD automation.
+* Telemetry ingestion from eagle.io, Hydstra and Hydrotel
+* Azure Data Lake and Azure Data Explorer
+* Data profiling and validation of **400K+ migrated records**
+* KQL and metadata-driven frameworks
+* Multi-system data modelling
+* Medallion architecture
+* SCADA ingestion
+* Event Hub, Event Grid and Logic Apps
+* Azure Data Sharing
+* Integration monitoring and governance
 
-Cognizant — Senior Integration Developer (2020–2021)
-Delivered Azure integrations across PeopleSoft, Adobe Campaign, RAMS, and Dynamics 365.
-Built ADF pipelines, automated SAS token rotation, and developed reusable error‑handling frameworks.
+🏆 **Dam Good Award – 2025**
 
-NBN (Infosys) — Senior Integration Developer (2019–2020)
-Developed enterprise SOA/OSB integrations across telecom systems.
+---
 
-Earlier Roles (2006–2019)
-Project Manager, Senior Analyst, Senior Software Engineer across Cognizant India, Mphasis, Scope International, and Keane India.
+### 🚗 Angle Auto Finance — Design & Development Lead
 
-📄 Resume
-You can download my latest resume here:
-👉 resume.pdf
+**Sydney, Australia | Aug 2021 – Nov 2023**
 
-📬 Contact
-📍 Sydney, Australia
-📧 pradeepa.venkatakrishnan@gmail.com
-🔗 www.linkedin.com/in/pradeepa-r-32909bbb (linkedin.com in Bing)  
-📱 +61 434 964 777
+Led Azure integration architecture for EDI, Novated Leasing and Dealer Portal solutions.
 
-⭐ About This Portfolio
+Key technologies:
+
+`APIM` · `ADF` · `Service Bus` · `Azure Functions` · `Logic Apps` · `Azure SQL` · `Cosmos DB` · `Key Vault`
+
+Key achievements included:
+
+* Hybrid sync/async integration
+* Event-driven architecture
+* REST API development
+* OpenAPI / Swagger
+* MuleSoft and Azure integration
+* EDI modernisation
+* Azure DevOps CI/CD
+* YAML pipeline automation
+* Secure secret management
+
+🏆 **Team Anglers of the Year**
+
+---
+
+### 💻 Cognizant Technology Solutions — Senior Integration Developer
+
+**Sydney, Australia | Mar 2020 – Aug 2021**
+
+Worked on Azure integrations across PeopleSoft, Adobe Campaign, RAMS and Dynamics 365.
+
+Key technologies:
+
+`ADF` · `Logic Apps` · `Service Bus` · `Azure Functions` · `Azure SQL` · `Event Hub` · `Key Vault` · `Java` · `Oracle SOA` · `OSB` · `Splunk`
+
+---
+
+### 📡 NBN via Infosys — Senior Integration Developer
+
+**Sydney, Australia | May 2019 – Feb 2020**
+
+Delivered enterprise SOA/OSB integrations across telecommunications systems.
+
+Technologies:
+
+`Oracle SOA Suite 11g/12c` · `Oracle Service Bus` · `Java` · `Oracle DB` · `ODI`
+
+---
+
+## 🏗️ Integration Architecture
+
+My experience covers the complete integration lifecycle:
+
+```text
+                    ┌─────────────────────┐
+                    │   External Systems   │
+                    │ CBA | Partners | SaaS│
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   Azure API         │
+                    │   Management        │
+                    │ OAuth2 | JWT | mTLS │
+                    └──────────┬──────────┘
+                               │
+                ┌──────────────┼──────────────┐
+                │              │              │
+                ▼              ▼              ▼
+          Azure Functions   Logic Apps      APIs
+                │              │
+                └───────┬──────┘
+                        │
+                        ▼
+              ┌─────────────────────┐
+              │ Event-driven Layer  │
+              │ Event Hub / Grid    │
+              │ Service Bus         │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ Data Integration     │
+              │ ADF / Synapse       │
+              │ Data Lake / ADX     │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ Analytics & Data     │
+              │ Azure SQL / ADX     │
+              │ Reporting / Apps    │
+              └─────────────────────┘
+```
+
+---
+
+## 🔐 API Security
+
+I have hands-on experience designing layered API security using:
+
+* OAuth2
+* Microsoft Entra ID
+* JWT validation
+* mTLS
+* RBAC
+* IP allowlisting
+* API subscriptions
+* Rate limiting
+* APIM policies
+* Key Vault secret management
+
+My focus is on implementing **defence-in-depth security while maintaining reliable and scalable API integration**.
+
+---
+
+## 📊 Data Engineering
+
+Areas of expertise include:
+
+* Data profiling
+* Data analysis
+* Data validation
+* Data quality
+* Multi-system data modelling
+* Metadata-driven pipelines
+* Medallion architecture
+* Telemetry ingestion
+* SCADA data
+* KQL
+* T-SQL
+* Batch and real-time processing
+
+---
+
+## ⚙️ DevOps & Automation
+
+I work with:
+
+```text
+Git
+ │
+ ▼
+Azure DevOps
+ │
+ ▼
+YAML CI/CD
+ │
+ ├── Build
+ ├── Test
+ ├── Package
+ └── Deploy
+        │
+        ▼
+Azure
+ ├── Functions
+ ├── APIM
+ ├── Logic Apps
+ ├── ADF
+ └── Data Services
+```
+
+I have particular interest in **configuration-driven CI/CD, reusable YAML pipelines, secure secret management and automated Azure deployments**.
+
+---
+
+## 🏆 Awards & Recognition
+
+| Year | Award                              | Organisation             |
+| ---- | ---------------------------------- | ------------------------ |
+| 2026 | High Five Recognition – Excellence | Housing Australia        |
+| 2025 | Dam Good Award                     | WaterNSW                 |
+| 2023 | Team Anglers of the Year           | Angle Auto Finance       |
+| 2016 | CKlub Trophy & Shining Star Award  | Cognizant                |
+| 2012 | Client Spot Award                  | General Motors / Mphasis |
+| 2007 | Best Performer Award               | Keane                    |
+
+---
+
+## 🎓 Certifications
+
+* **DP-203** — Data Engineering on Microsoft Azure
+* **AZ-204** — Developing Solutions for Microsoft Azure
+* Oracle SOA Foundation Practitioner
+* Sun Certified Java Programmer
+* Oracle Certified Associate – SQL
+
+---
+
+## 🎓 Education
+
+**Master of Computer Application (M.C.A)**
+Madurai Kamaraj University — 2006
+
+**Bachelor of Science in Computer Science**
+Madurai Kamaraj University — 2003
+
+---
+
+## 📌 Current Areas of Interest
+
+I'm particularly interested in building and modernising:
+
+* ☁️ Azure enterprise integration platforms
+* 🤖 AI-assisted API & integration monitoring
+* 🔐 Secure API architectures
+* ⚡ Event-driven integration
+* 📊 Real-time telemetry platforms
+* 🔄 Legacy SOA/OSB → Azure modernisation
+* 🚀 Automated CI/CD and DevOps
+* 🧠 Intelligent anomaly detection for APIs and integrations
+* 🏗️ Scalable cloud-native integration architectures
+
+---
+
+## 📫 Connect With Me
+
+**LinkedIn:**
+[Pradeepa Rajamani](https://www.linkedin.com/in/pradeepa-r-32909bbb)
+
+
+---
+
+## ⭐ About This Portfolio
 This repository serves as a professional showcase of my Azure Data Engineering and API Integration expertise.
 Projects will be added soon, covering real‑world patterns across ingestion pipelines, API security, event‑driven architecture, and cloud‑native integration.
