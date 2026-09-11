@@ -199,9 +199,6 @@ Areas of expertise include:
 I work with:
 
 ```text
-Git
- │
- ▼
 Azure DevOps
  │
  ▼
