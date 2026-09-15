@@ -1,0 +1,47 @@
+parameters:
+  dotnetVersion: '8.0.x'              # .NET SDK version
+  csprojPath: ''                      # Path to the .csproj file
+  artifactName: 'functionapp'         # Name of the output artifact
+  buildConfiguration: 'Release'       # Build configuration (Debug/Release)
+
+steps:
+- task: UseDotNet@2
+  displayName: "Install .NET SDK ${{ parameters.dotnetVersion }}"
+  inputs:
+    packageType: 'sdk'
+    version: ${{ parameters.dotnetVersion }}
+
+- task: DotNetCoreCLI@2
+  displayName: "Restore - ${{ parameters.csprojPath }}"
+  inputs:
+    command: 'restore'
+    projects: ${{ parameters.csprojPath }}
+
+- task: DotNetCoreCLI@2
+  displayName: "Build - ${{ parameters.csprojPath }}"
+  inputs:
+    command: 'build'
+    projects: ${{ parameters.csprojPath }}
+    arguments: '--configuration ${{ parameters.buildConfiguration }}'
+
+- task: DotNetCoreCLI@2
+  displayName: "Publish - ${{ parameters.csprojPath }}"
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: ${{ parameters.csprojPath }}
+    arguments: '--configuration ${{ parameters.buildConfiguration }} --output $(Build.ArtifactStagingDirectory)/${{ parameters.artifactName }}'
+
+- task: ArchiveFiles@2
+  displayName: "Zip Artifact - ${{ parameters.artifactName }}"
+  inputs:
+    rootFolderOrFile: "$(Build.ArtifactStagingDirectory)/${{ parameters.artifactName }}"
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: "$(Build.ArtifactStagingDirectory)/${{ parameters.artifactName }}.zip"
+
+- task: PublishBuildArtifacts@1
+  displayName: "Publish Artifact - ${{ parameters.artifactName }}"
+  inputs:
+    PathtoPublish: "$(Build.ArtifactStagingDirectory)/${{ parameters.artifactName }}.zip"
+    ArtifactName: ${{ parameters.artifactName }}

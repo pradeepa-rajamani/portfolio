@@ -1,0 +1,49 @@
+parameters:
+  azureSubscription: ''          # Service connection name
+  functionAppName: ''            # Name of the Function App in Azure
+  resourceGroupName: ''          # Resource group containing the Function App
+  artifactName: ''               # Name of the artifact published by CI
+  slotName: ''                   # Optional: deployment slot name (ignored for Flex Consumption)
+  packagePath: ''                # Path to ZIP inside the artifact
+  appType: 'functionApp'         # 'functionApp' (Windows) or 'functionAppLinux' (Linux)
+  isFlexConsumption: false       # Set true for Flex Consumption plans
+
+steps:
+  - download: ciBuild
+    artifact: ${{ parameters.artifactName }}
+    displayName: "Download Artifact - ${{ parameters.artifactName }}"
+
+  - ${{ if eq(parameters.isFlexConsumption, true) }}:
+    - task: AzureFunctionApp@2
+      displayName: "Deploy Function App - ${{ parameters.functionAppName }} (Flex Consumption)"
+      inputs:
+        azureSubscription: ${{ parameters.azureSubscription }}
+        appType: ${{ parameters.appType }}
+        isFlexConsumption: true
+        appName: ${{ parameters.functionAppName }}
+        package: ${{ parameters.packagePath }}
+
+  - ${{ if eq(parameters.isFlexConsumption, false) }}:
+    - ${{ if ne(parameters.slotName, '') }}:
+      - task: AzureFunctionApp@2
+        displayName: "Deploy Function App - ${{ parameters.functionAppName }} (slot: ${{ parameters.slotName }})"
+        inputs:
+          azureSubscription: ${{ parameters.azureSubscription }}
+          appType: ${{ parameters.appType }}
+          appName: ${{ parameters.functionAppName }}
+          resourceGroupName: ${{ parameters.resourceGroupName }}
+          deployToSlotOrASE: true
+          slotName: ${{ parameters.slotName }}
+          package: ${{ parameters.packagePath }}
+          deploymentMethod: 'zipDeploy'
+
+    - ${{ if eq(parameters.slotName, '') }}:
+      - task: AzureFunctionApp@2
+        displayName: "Deploy Function App - ${{ parameters.functionAppName }}"
+        inputs:
+          azureSubscription: ${{ parameters.azureSubscription }}
+          appType: ${{ parameters.appType }}
+          appName: ${{ parameters.functionAppName }}
+          resourceGroupName: ${{ parameters.resourceGroupName }}
+          package: ${{ parameters.packagePath }}
+          deploymentMethod: 'zipDeploy'

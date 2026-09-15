@@ -1,0 +1,22 @@
+trigger:
+- main
+
+resources:
+  repositories:
+  - repository: devopsTemplates
+    type: git
+    name: pradeepavenkatproject/devops-platform-repo
+    ref: main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- checkout: self
+
+- template: pipelines/templates/build/functionapp-build.yml@devopsTemplates
+  parameters:
+    dotnetVersion: '8.0.x'
+    csprojPath: 'WeatherFunctionApp/WeatherFunctionApp.csproj'
+    artifactName: 'weather-func'
+    buildConfiguration: 'Release'
