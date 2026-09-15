@@ -49,8 +49,8 @@ flowchart LR
         C[Checkout] --> D[functionapp-deploy.yml]
         D --> D1[Download artifact from ciBuild resource]
         D1 --> D2{isFlexConsumption?}
-        D2 -- true --> D3[AzureFunctionApp@2<br/>Flex Consumption path]
-        D2 -- false --> D4[AzureFunctionApp@2<br/>zipDeploy path]
+        D2 -- true --> D3["AzureFunctionApp v2 (Flex Consumption path)"]
+        D2 -- false --> D4["AzureFunctionApp v2 (zipDeploy path)"]
     end
 
     B4 -.->|pipeline resource: ciBuild| D1
